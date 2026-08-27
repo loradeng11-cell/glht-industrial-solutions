@@ -1,16 +1,19 @@
-# GLHT Industrial Solutions — V4 Customer-First
+# GLHT Industrial Solutions — V6.5 FIXED
 
-Public GitHub Pages website package for GLHT Industrial Solutions.
+This release fixes the two missing-image areas reported in V6.4.
 
-## Positioning
-- Custom thermal management and heatsink solutions
-- Engineering and rapid response
-- Reliable production and delivery coordination
-- Customer-first service before, during and after production
-- Long-term manufacturing support
+Root cause:
+The HTML references were correct, but the CSS still contained old hardcoded rules that:
+- hid the Manufacturing Reality video/poster, and
+- hid the Production Capacity image,
+while pointing to a deleted old team image.
 
-## Supplier-safe public version
-This package uses GLHT branding only in public-facing website copy. Supplier company names, supplier logos, supplier-branded presentations and supplier-branded company video are not included.
+V6.5 fixes those CSS rules and uses a new stylesheet filename (`style-v65.css`) to bypass browser/GitHub Pages cache.
 
-## GitHub Pages
-Upload the complete contents of this folder to the repository root, preserving the `assets` folder structure. Publish from `main` / `(root)`.
+Confirmed:
+- From Engineering Intent to Manufacturing Reality: visible video/poster.
+- Production Capacity That Scales With the Program: visible factory image.
+- Requirements Evolve team image remains separate.
+- Floating Talk to Our Team remains unchanged.
+
+Upload the CONTENTS of this folder to the repository root and replace the old files.
