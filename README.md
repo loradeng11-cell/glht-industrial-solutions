@@ -1,12 +1,16 @@
-# GLHT Industrial Solutions — V6.7 HERO CLEAN
+GLHT Industrial Solutions — V7.0 FINAL CONTACT POLISH
 
-This release fixes the remaining homepage hero overlap.
+Changes in this release:
+- Rebuilt the Contact / RFQ page so the right side is fully used by a project inquiry form.
+- Replaced all public Gmail addresses with corporate domain aliases:
+  info@aglobonavi.com
+  rfq@aglobonavi.com
+  sales@aglobonavi.com
+- Kept both U.S. support phone numbers.
+- Restored Bruce Xue as Engineering Contact using bruce.xue@dyontechgroup.com.
+- Updated homepage/footer contact information to match.
+- RFQ email button sends to rfq@aglobonavi.com and CCs Bruce Xue.
+- Kept homepage Hero and manufacturing content unchanged.
+- Added CNAME for aglobonavi.com.
 
-- Replaces the generated full-page mockup image with a clean product-only crop.
-- Removes all baked-in duplicate text/navigation/feature labels from the hero image.
-- Keeps the actual HTML headline and buttons as the only text layer.
-- Slightly increases separation between the left copy and right product visual.
-- Uses `style-v67.css` and a new hero filename to bypass browser/GitHub Pages cache.
-- All previously approved lower-page images and sections remain unchanged.
-
-Upload the CONTENTS of this folder to the repository root and replace same-name files.
+Upload the CONTENTS of this folder to the repository root and commit to main.
