@@ -1,16 +1,16 @@
-# GLHT Industrial Solutions — Supplier-Safe Public Website
+# GLHT Industrial Solutions — V4 Customer-First
 
-This public version intentionally omits all supplier company names, supplier logos, customer names, supplier-branded PPT screenshots and the original supplier-branded company video.
+Public GitHub Pages website package for GLHT Industrial Solutions.
 
-Public montage:
-- assets/videos/glht-manufacturing-montage.mp4
+## Positioning
+- Custom thermal management and heatsink solutions
+- Engineering and rapid response
+- Reliable production and delivery coordination
+- Customer-first service before, during and after production
+- Long-term manufacturing support
 
-Contacts:
-Bruce — bruce.xue@dyontechgroup.com — WhatsApp +86 139 2573 9049
-Lora — loradeng11@gmail.com — Tangwendy2303@gmail.com — +1 909 668 5953 / +1 909 668 5955
+## Supplier-safe public version
+This package uses GLHT branding only in public-facing website copy. Supplier company names, supplier logos, supplier-branded presentations and supplier-branded company video are not included.
 
-Upload the contents of this folder to the GitHub repository root and keep the assets folder intact.
-
-
-## Video compatibility
-The public montage is provided as H.264 MP4 plus WebM fallback. It is configured to autoplay muted, loop, and retain playback controls.
+## GitHub Pages
+Upload the complete contents of this folder to the repository root, preserving the `assets` folder structure. Publish from `main` / `(root)`.
