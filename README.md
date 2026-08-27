@@ -1,19 +1,12 @@
-# GLHT Industrial Solutions — V6.5 FIXED
+# GLHT Industrial Solutions — V6.7 HERO CLEAN
 
-This release fixes the two missing-image areas reported in V6.4.
+This release fixes the remaining homepage hero overlap.
 
-Root cause:
-The HTML references were correct, but the CSS still contained old hardcoded rules that:
-- hid the Manufacturing Reality video/poster, and
-- hid the Production Capacity image,
-while pointing to a deleted old team image.
+- Replaces the generated full-page mockup image with a clean product-only crop.
+- Removes all baked-in duplicate text/navigation/feature labels from the hero image.
+- Keeps the actual HTML headline and buttons as the only text layer.
+- Slightly increases separation between the left copy and right product visual.
+- Uses `style-v67.css` and a new hero filename to bypass browser/GitHub Pages cache.
+- All previously approved lower-page images and sections remain unchanged.
 
-V6.5 fixes those CSS rules and uses a new stylesheet filename (`style-v65.css`) to bypass browser/GitHub Pages cache.
-
-Confirmed:
-- From Engineering Intent to Manufacturing Reality: visible video/poster.
-- Production Capacity That Scales With the Program: visible factory image.
-- Requirements Evolve team image remains separate.
-- Floating Talk to Our Team remains unchanged.
-
-Upload the CONTENTS of this folder to the repository root and replace the old files.
+Upload the CONTENTS of this folder to the repository root and replace same-name files.
