@@ -1,0 +1,11 @@
+@import url("style-v71.css");
+:root{--glht-orange:#f28c28;--glht-navy:#0b1f33;--glht-blue:#123a5a;--glht-ice:#eef5f9}
+.hero-v8{background:linear-gradient(90deg,rgba(6,24,40,.96),rgba(6,24,40,.72)),url("../images/manufacturing-intent-v64.webp") center/cover;min-height:610px;display:flex;align-items:center;color:#fff}
+.hero-v8 .content{max-width:830px;padding:90px 0}.hero-v8 h1{font-size:58px;line-height:1.02;margin:16px 0 22px}.hero-v8 p{font-size:20px;line-height:1.65;color:#d9e4ec;max-width:760px}
+.hero-kicker{display:inline-block;border-left:4px solid var(--glht-orange);padding-left:12px;font-weight:800;letter-spacing:.08em;color:#fff}
+.capabilities-v8{background:#f5f8fa}.cap-grid-v8{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.cap-v8{background:#fff;border:1px solid #dfe8ee;padding:28px;min-height:260px;box-shadow:0 8px 24px rgba(8,31,51,.06)}.cap-v8 b{font-size:13px;color:var(--glht-orange);letter-spacing:.08em}.cap-v8 h3{font-size:24px;margin:10px 0}.cap-v8 p{color:#5b6874;line-height:1.65}.cap-v8 ul{padding-left:18px;color:#334451;line-height:1.75}
+.industry-v8{background:var(--glht-navy);color:#fff}.industry-grid-v8{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.industry-card-v8{border:1px solid rgba(255,255,255,.16);padding:24px;background:rgba(255,255,255,.04)}.industry-card-v8 h3{margin-top:0}.industry-card-v8 p{color:#b9c8d3;line-height:1.6}
+.scale-v8{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}.scale-v8 img{width:100%;border-radius:4px}.scale-points-v8{display:grid;grid-template-columns:1fr 1fr;gap:14px}.scale-point-v8{padding:18px;background:#f5f8fa;border-left:3px solid var(--glht-orange)}
+.contact-strip-v8{display:flex;gap:24px;flex-wrap:wrap;margin-top:22px}.contact-strip-v8 a{color:inherit;text-decoration:none}
+@media(max-width:900px){.hero-v8{min-height:520px}.hero-v8 h1{font-size:40px}.cap-grid-v8,.industry-grid-v8{grid-template-columns:1fr 1fr}.scale-v8{grid-template-columns:1fr}}
+@media(max-width:620px){.hero-v8 h1{font-size:34px}.hero-v8 .content{padding:65px 0}.cap-grid-v8,.industry-grid-v8,.scale-points-v8{grid-template-columns:1fr}.cap-v8{min-height:0}}
